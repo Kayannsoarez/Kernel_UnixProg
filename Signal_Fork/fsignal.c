@@ -3,8 +3,9 @@
 #include <signal.h>
 #include <string.h>
 #include <unistd.h>
-#include <sys/types.h>
 #include <sys/stat.h>
+#include <sys/types.h>
+
 
 const char *filename = "teste.x";
 
