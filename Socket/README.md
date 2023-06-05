@@ -1,3 +1,11 @@
+## Socket TCP Seguro
+As mensagens enviadas nesta comunicação são criptografadas com uma criptografia simétrica AES 256 CBC, utilizando a biblioteca OpenSSL.
+
+### Instalação Necessária 
+```bash
+$ sudo apt-get install libssl-dev
+```
+
 * Sever:
 
 > Executar
